@@ -17,4 +17,11 @@ public class UserService {
     public User getById(int id) {
         return userDao.getById(id);
     }
+
+
+    public boolean tx() {
+        userDao.insert(new User(2, "222"));
+        userDao.insert(new User(1, "111"));
+        return true;
+    }
 }
