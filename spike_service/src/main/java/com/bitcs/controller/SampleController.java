@@ -6,16 +6,16 @@ import com.bitcs.redis.UserKey;
 import com.bitcs.service.UserService;
 import com.bitcs.util.Result;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 示例控制层
  *
  * @author GeChen
  */
-@RestController
+@Controller
 @RequestMapping("/demo")
 public class SampleController {
     @Autowired
@@ -37,7 +37,6 @@ public class SampleController {
 
     @RequestMapping("/db")
     public Result<String> getTx() {
-        userService.tx();
         return Result.success("");
     }
 
@@ -49,8 +48,7 @@ public class SampleController {
 
     @RequestMapping("/redisSet")
     public Result<Boolean> redisSet() {
-        User user = new User(1, "11111");
-        redisService.set(UserKey.getById, "" + 1, user);
+
         return Result.success(true);
     }
 }

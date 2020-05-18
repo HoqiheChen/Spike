@@ -18,7 +18,7 @@ public interface UserDao {
      * @return
      */
     @Select("select * from user where id = #{id}")
-    User getById(@Param("id") int id);
+    User getById(@Param("id") long id);
 
     @Insert("insert into user(id,name) values(#{id},#{name})")
     int insert(User user);

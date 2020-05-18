@@ -1,36 +1,83 @@
 package com.bitcs.domain;
 
+import java.util.Date;
+
 /**
  * 对应数据库的user表
  *
  * @author GeChen
  */
 public class User {
-    private int id;
-    private String name;
+    private long id;
+    private String nickname;
+    private String password;
+    private String salt;
+    private String head;
+    private Date registerDate;
+    private Date lastLoginDate;
+    private Integer loginCount;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getNickname() {
+        return nickname;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
-    public User() {
-
+    public String getPassword() {
+        return password;
     }
 
-    public User(int id, String name) {
-        this.id = id;
-        this.name = name;
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getSalt() {
+        return salt;
+    }
+
+    public void setSalt(String salt) {
+        this.salt = salt;
+    }
+
+    public String getHead() {
+        return head;
+    }
+
+    public void setHead(String head) {
+        this.head = head;
+    }
+
+    public Date getRegisterDate() {
+        return registerDate;
+    }
+
+    public void setRegisterDate(Date registerDate) {
+        this.registerDate = registerDate;
+    }
+
+    public Date getLastLoginDate() {
+        return lastLoginDate;
+    }
+
+    public void setLastLoginDate(Date lastLoginDate) {
+        this.lastLoginDate = lastLoginDate;
+    }
+
+    public Integer getLoginCount() {
+        return loginCount;
+    }
+
+    public void setLoginCount(Integer loginCount) {
+        this.loginCount = loginCount;
     }
 }
