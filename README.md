@@ -16,3 +16,5 @@
 ​	服务端：Password=MD5(用户输入+随机salt)
 
 2）JSR303参数校验+全局异常处理器
+
+3）分布式Session
