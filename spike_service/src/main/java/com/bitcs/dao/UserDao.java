@@ -20,6 +20,12 @@ public interface UserDao {
     @Select("select * from user where id = #{id}")
     User getById(@Param("id") long id);
 
+    /**
+     * 根据用户信息插入到数据库
+     *
+     * @param user
+     * @return
+     */
     @Insert("insert into user(id,name) values(#{id},#{name})")
     int insert(User user);
 }
