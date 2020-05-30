@@ -32,6 +32,11 @@ public class CodeMsg {
     public static CodeMsg MOBILE_ERROR = new CodeMsg(500213, "手机号码格式错误");
     public static CodeMsg MOBILE_NOT_EXIST = new CodeMsg(500214, "手机号码不存在");
     public static CodeMsg PASSWORD_ERROR = new CodeMsg(500215, "密码错误");
+    /**
+     * 秒杀模块 5005XX
+     */
+    public static CodeMsg GOODS_LACK_ERROR = new CodeMsg(500500, "商品没有库存");
+    public static CodeMsg REPEAT_SPIKE_ERROR = new CodeMsg(500501, "不允许重复秒杀");
 
     /**
      * @param code
