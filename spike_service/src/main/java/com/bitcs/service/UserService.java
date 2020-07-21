@@ -9,6 +9,8 @@ import com.bitcs.redis.UserKey;
 import com.bitcs.util.CodeMsg;
 import com.bitcs.util.MD5Util;
 import com.bitcs.util.UUIDUtil;
+import io.github.yedaxia.apidocs.Docs;
+import io.github.yedaxia.apidocs.DocsConfig;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -88,5 +90,33 @@ public class UserService {
         cookie.setMaxAge(UserKey.token.expireSeconds());
         cookie.setPath("/");
         httpServletResponse.addCookie(cookie);
+    }
+
+    public static void main(String[] args) {
+        DocsConfig config = new DocsConfig();
+        /**
+         *项目根目录
+         */
+        config.setProjectPath("D:\\project\\Spike\\spike_service");
+        /**
+         * 项目名称
+         */
+        config.setProjectName("ProjectName");
+        /**
+         * 声明该API的版本
+         */
+        config.setApiVersion("V1.0");
+        /**
+         * 生成API 文档所在目录
+         */
+        config.setDocsPath("your api docs path");
+        /**
+         * 配置自动生成
+         */
+        config.setAutoGenerate(Boolean.TRUE);
+        /**
+         * 执行生成文档
+         */
+        Docs.buildHtmlDocs(config);
     }
 }

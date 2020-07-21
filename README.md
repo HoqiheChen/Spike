@@ -31,14 +31,29 @@
 
 秒杀订单表
 
-
-
 2）商品列表页
-
-
 
 3）商品详情页
 
-
-
 4）订单详情页
+
+## 3.JMeter压测
+
+1）JMeter入门
+
+
+
+2）自定义变量模拟多用户
+
+
+
+3）JMeter命令行使用
+
+
+
+4）Redis压测工具redis-benchmark
+
+
+
+5)Spring Boot 打war包
+

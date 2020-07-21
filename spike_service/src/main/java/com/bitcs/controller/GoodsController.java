@@ -20,7 +20,7 @@ import java.util.List;
  * @author GeChen
  */
 @Controller
-@RequestMapping("goods")
+@RequestMapping("/goods")
 public class GoodsController {
     @Autowired
     UserService userService;
