@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Result</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/google-code-prettify@1.0.5/bin/prettify.min.css">
+<link href="../style.css" rel="stylesheet" />
+</head>
+<body onload="PR.prettyPrint()">
+<pre class="prettyprint lang-java">
+public class Result implements Serializable{
+
+    private int code; //状态码
+    private String msg; //状态信息
+    private User data; //数据信息
+
+    public int getCode(){
+        return code;
+    }
+
+    public void setCode(int code){
+        this.code = code;
+    }
+
+    public String getMsg(){
+        return msg;
+    }
+
+    public void setMsg(String msg){
+        this.msg = msg;
+    }
+
+    public User getData(){
+        return data;
+    }
+
+    public void setData(User data){
+        this.data = data;
+    }
+
+}
+</pre>
+
+
+<pre class="prettyprint lang-java">
+public class User implements Serializable{
+
+    private long id; //
+    private String nickname; //
+    private String password; //
+    private String salt; //
+    private String head; //
+    private String registerDate; //
+    private String lastLoginDate; //
+    private int loginCount; //
+
+    public long getId(){
+        return id;
+    }
+
+    public void setId(long id){
+        this.id = id;
+    }
+
+    public String getNickname(){
+        return nickname;
+    }
+
+    public void setNickname(String nickname){
+        this.nickname = nickname;
+    }
+
+    public String getPassword(){
+        return password;
+    }
+
+    public void setPassword(String password){
+        this.password = password;
+    }
+
+    public String getSalt(){
+        return salt;
+    }
+
+    public void setSalt(String salt){
+        this.salt = salt;
+    }
+
+    public String getHead(){
+        return head;
+    }
+
+    public void setHead(String head){
+        this.head = head;
+    }
+
+    public String getRegisterDate(){
+        return registerDate;
+    }
+
+    public void setRegisterDate(String registerDate){
+        this.registerDate = registerDate;
+    }
+
+    public String getLastLoginDate(){
+        return lastLoginDate;
+    }
+
+    public void setLastLoginDate(String lastLoginDate){
+        this.lastLoginDate = lastLoginDate;
+    }
+
+    public int getLoginCount(){
+        return loginCount;
+    }
+
+    public void setLoginCount(int loginCount){
+        this.loginCount = loginCount;
+    }
+
+}
+</pre>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/google-code-prettify@1.0.5/bin/prettify.min.js"></script>
+</body>
+</html>

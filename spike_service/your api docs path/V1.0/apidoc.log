@@ -1,0 +1,54 @@
+七月 21, 2020 11:07:57 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [D:\project\Spike\spike_service\src\main\java\]
+七月 21, 2020 11:07:57 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: project type not set, try to figure out...
+七月 21, 2020 11:07:57 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : D:\project\Spike\spike_service\src\main\java\
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : GoodsController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : LoginController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : SpikeController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : UserController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : GoodsController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : GoodsController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : LoginController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : LoginController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : SpikeController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : SpikeController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : UserController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : UserController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs start...
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\Spike\spike_service\src\main\java\com\bitcs\controller\GoodsController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\Spike\spike_service\src\main\java\com\bitcs\controller\GoodsController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\Spike\spike_service\src\main\java\com\bitcs\controller\LoginController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\Spike\spike_service\src\main\java\com\bitcs\controller\LoginController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\Spike\spike_service\src\main\java\com\bitcs\controller\SpikeController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\Spike\spike_service\src\main\java\com\bitcs\controller\SpikeController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\Spike\spike_service\src\main\java\com\bitcs\controller\UserController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\Spike\spike_service\src\main\java\com\bitcs\controller\UserController.java
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index start !!!
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index done !!!
+七月 21, 2020 11:07:58 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs done !!!
